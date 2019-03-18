@@ -4,7 +4,7 @@ function infiniteTimerGame(callback) {
   setTimeout(() => {
     console.log('Time up! 10 seconds before the next game starts...');
 
-    // eslint-disable-next-line
+    /* eslint-disable-next-line */
     callback && callback();
 
     setTimeout(() => {
